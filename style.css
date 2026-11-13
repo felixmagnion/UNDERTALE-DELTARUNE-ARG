@@ -40,3 +40,7 @@ body {
 .Kindness:hover {
    color: #7AE67A;
 }
+.hidden_link {
+   cursor: default;
+   display: inline-block;
+}

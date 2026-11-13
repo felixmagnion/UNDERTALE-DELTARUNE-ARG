@@ -29,7 +29,25 @@
     <p>You can think on this page as an "interface"-a way you and we can talk.</p>
     <p>It would be interesting to talk to you. But first, why don't you try this <a href="https://hometown-rumors.neocities.org">INTERESTING blog</a>?</p>
     <p>Oh, and also, we give you this. It's fragile, be careful. Something would happen if you touch it.</p>
-    <img src="red-soul.webp" alt="TOUCH IT" width="300">
+    <img src="red-soul.webp" id="touchit" alt="TOUCH IT" width="300" style="display:block; margin:0 auto;">
+    <script>
+      let clickCount = 0;
+      const touchIt = document.getElementById("touchit");
+
+      const clickSound = new Audio("soul-shatter.mp3");
+
+      touchIt.addEventListener("click", () => {
+        clickSound.currentTime = 0;
+        clickSound.play();
+
+        clickCount++;
+        if (clickCount === 7) {
+            setTimeout(() => {
+            window.location.href = "https://felixmagnion.github.io/UNDERTALE-DELTARUNE-ARG/FOUND_ME";
+            }, 300); 
+        }
+      });
+    </script>
     <p>So you came back again. How was that website? Interesting? Mysterious? Or maybe, nostalgic.</p>
     <p>Anyways. We're sure you have many questions. we didn't even introduce ourselves, excuse me. So, we give you this FAQ list.</p>
     <h2>Frecuently Asked Questions (FAQ)</h2>
