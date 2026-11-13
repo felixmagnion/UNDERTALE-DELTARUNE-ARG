@@ -17,7 +17,10 @@ body {
    color: #003EFF;
 }
 .Integrity:hover {
-   color: #7599FF;
+   color: #6a8eff;
+}
+.Integrity:active {
+   color: #6a8eff;
 }
 .Chara {
    color: #FF0000;
@@ -29,11 +32,11 @@ body {
    color: #F9A709;
 }
 .Bravery:hover {
-   color: #FCCA6B
+   color: #FCCA6B;
 }
 .Kindness {
-   color: #00C700
+   color: #00C700;
 }
 .Kindness:hover {
-   color: #7AE67A
+   color: #7AE67A;
 }
