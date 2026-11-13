@@ -13,3 +13,27 @@ body {
       font-smooth: never;
       -webkit-font-smoothing: none;
     }
+.Integrity {
+   color: #003EFF;
+}
+.Integrity:hover {
+   color: #7599FF;
+}
+.Chara {
+   color: #FF0000;
+}
+.Chara:hover {
+   color: #FF7373;
+}
+.Bravery {
+   color: #F9A709;
+}
+.Bravery:hover {
+   color: #FCCA6B
+}
+.Kindness {
+   color: #00C700
+}
+.Kindness:hover {
+   color: #7AE67A
+}
